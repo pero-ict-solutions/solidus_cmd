@@ -9,5 +9,5 @@ case ARGV.first
   when 'extension'
     ARGV.shift
     require 'solidus_cmd/extension'
-    SpreeCmd::Extension.start
+    SolidusCmd::Extension.start
 end
